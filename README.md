@@ -12,5 +12,11 @@ A simple and elegant Flutter application that shows real-time weather informatio
  
 
 ---
+
+## 🛠️ Technologies Used
+
+- **Flutter**: Cross-platform mobile development framework
+- **Dart**: Programming language
+- **Material Design**: UI components and design system
  
 
