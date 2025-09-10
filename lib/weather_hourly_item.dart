@@ -21,6 +21,8 @@ class HourlyForcastItem extends StatelessWidget {
           child: Column(
             children: [
               Text(
+                maxLines: 1,
+                overflow: TextOverflow.ellipsis,
                 time,
                 style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16),
               ),
