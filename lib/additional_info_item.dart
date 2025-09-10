@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-class additionalInfoItem extends StatelessWidget {
+class AdditionalInfoItem extends StatelessWidget {
   final IconData icon;
   final String label;
   final String value;
-  const additionalInfoItem({
+  const AdditionalInfoItem({
     super.key,
     required this.icon,
     required this.label,
@@ -17,7 +17,7 @@ class additionalInfoItem extends StatelessWidget {
       children: [
         Icon(icon),
         SizedBox(height: 8),
-        Text(label, style: TextStyle(fontSize: 16)),
+        Text(label, style: TextStyle(fontSize: 16,)),
         SizedBox(height: 8),
         Text(
           value,

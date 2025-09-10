@@ -14,6 +14,7 @@ class WeatherApp extends StatelessWidget{
       debugShowCheckedModeBanner: false,
       //setting the theme for entire app globally instead of setting bgcolor for every page and use material3
       theme: ThemeData.dark(useMaterial3: true),
+      
       home: const WeatherScreen(),
     );
   }
